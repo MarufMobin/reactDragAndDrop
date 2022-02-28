@@ -1,0 +1,90 @@
+.post-button {
+    padding: 20px;
+    background-color: pink;
+    border-radius: 30px;
+    width: 120px;
+    display: inline-block;
+    margin: 50px auto;
+    cursor: pointer;
+}
+
+.form-div {
+    text-align: center;
+}
+
+.post-input-field {
+    background-color: pink;
+    border-radius: 30px;
+    height: 20px;
+    padding: 15px;
+    margin: 50px auto 20px;
+}
+
+.post-input-field p {
+    font-size: 18px;
+    font-weight: 700px;
+    margin: 0px;
+}
+
+.modal-hidden {
+    display: none;
+}
+
+.modal-show {
+    display: block;
+}
+
+.modal-body {
+    width: 100%;
+    background-color: #2a5194a6;
+    height: 100%;
+    z-index: 10000;
+    top: 0px;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom-card {
+    position: relative;
+    background-color: rgb(242, 192, 247);
+    padding: 50px;
+    border-radius: 30px;
+}
+
+.modal-closer {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #fff;
+    border-radius: 30px;
+    font-size: 18px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+    display: block;
+}
+
+.modal-closer span {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+
+/* Form css Start here */
+
+.text-area {
+    width: 500px;
+    padding: 20px;
+    outline: none;
+    border: none;
+    resize: none;
+}
+
+.image-drug {
+    width: 100%;
+    padding: 40px 0px;
+    background-color: #fff;
+}
